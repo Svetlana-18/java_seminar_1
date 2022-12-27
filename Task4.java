@@ -1,14 +1,5 @@
-// решать в семинаре было засвечено решение
+
 public class Task4 {
-    public String reverseWords(String s) {
-        List<String> words = Arrays.asList(s.trim().split("\\s+"));
-        Collections.reverse(words);
-        return String.join(" ", words);
-    }
-}
-
-
-class Solution {
     public String reverseWords(String s) {
         StringBuilder sb = new StringBuilder();
         int end = s.length() - 1;
