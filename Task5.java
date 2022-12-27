@@ -1,4 +1,3 @@
-// дорешивать ошибка
 
 public class Task5 {
     class Solution {
